@@ -1,0 +1,16 @@
+<% content_for(:head) do %>
+  <%= javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/handsontable/0.26.1/handsontable.full.js" %>
+  <%= stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/handsontable/0.26.1/handsontable.full.css" %>
+<% end %>
+
+<h1>Spreadsheet#index</h1>
+<p>Find me in app/views/spreadsheet/index.html.erb</p>
+
+<section id="active_users">
+    <h2>Active users</h2>
+    <ul id="active_users_list">
+    </ul>
+</section>
+
+<section id="spreadsheet">
+</section>
